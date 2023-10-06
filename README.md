@@ -4,7 +4,7 @@
 
 This project is a DIY dashboard solution for Tesla Model Y and Model 3 owners. It provides real-time data and controls for your vehicle, leveraging a Raspberry Pi 4, a 7-inch Raspberry Pi screen, and an OBDLink MX+ adapter. The software is built using QT, PyQt, and SocketCAN, with communication facilitated by an ELM327 to SocketCAN driver. Additionally, this project utilizes the Model 3 DBC (Database for CAN Bus) file for improved compatibility.
 
-![](Photo_1.jpg|width=10)
+![](Photo_1.jpg|width=100)
 
 ## Features
 
