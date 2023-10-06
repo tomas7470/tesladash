@@ -16,10 +16,10 @@ This project is a DIY dashboard solution for Tesla Model Y and Model 3 owners. I
 
 ## Hardware Requirements
 
-- Raspberry Pi 4
-- 7-inch Raspberry Pi screen
-- [OBDLink MX+ adapter](https://www.obdlink.com/products/obdlink-mxp/) (Can be found in Amazon or Ebay)
-- Custom-designed mount/holder (Available in STEP or STL format)
+- Raspberry Pi 4 (guess you know how to get one..)
+- [7-inch Raspberry Pi screen](https://www.kiwi-electronics.com/en/raspberry-pi-7quot-800x480-dsi-touchscreen-display-1948?country=&gclid=CjwKCAjw4P6oBhBsEiwAKYVkq2pTRaThqb8cQ_RFveYJ5aUiZsfU_ZONKI_r4ttuA75f9ohQleqJDBoCGJQQAvD_BwE) (Can be found in Amazon or ebay)
+- [OBDLink MX+ adapter](https://www.obdlink.com/products/obdlink-mxp/) (Can be found in Amazon or ebay)
+- 3D printed Custom-designed mount/holder [Check out 3D models or STLs](STLs/)
 
 ## Software Requirements
 
