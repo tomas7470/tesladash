@@ -27,7 +27,7 @@ This project is a DIY dashboard solution for Tesla Model Y and Model 3 owners. I
 - PyQt for the graphical user interface
 - SocketCAN for CAN bus communication
 - [ELM327 to SocketCAN driver](https://github.com/norly/elmcan/tree/master)
-- Tesla Model 3 DBC file
+- [Tesla Model 3 DBC file](https://github.com/joshwardell/model3dbc)
 
 ## Installation
 
