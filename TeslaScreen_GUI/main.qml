@@ -28,7 +28,7 @@ ApplicationWindow {
     Image {
         width: parent.width
         height: parent.height
-        source: "/home/tomas7470/Downloads/Tesla/pics/Background.png"
+        source: "../pics/Background.png"
     }
 
     // Tacho
@@ -37,7 +37,7 @@ ApplicationWindow {
         width: height
         x: (parent.width / 2) - (width / 2)
         scale: 1.14
-        source: "/home/tomas7470/Downloads/Tesla/pics/Tacho2.png"
+        source: "../pics/Tacho2.png"
         fillMode: Image.PreserveAspectFit
     }
 
@@ -120,23 +120,7 @@ ApplicationWindow {
             rightelement.updateBatteryValue(battery)
         }
     }
-    
-   // Rectangle {
-       // id: photoPopup
-      //  width: parent.width
-       // height: parent.height
-       // color: "transparent"
-        //visible: false // Initially hidden
 
-       // Image {
-          //  anchors.centerIn: parent
-           // width: 300
-          //  height: 200
-         //   source: "/home/tomas7470/Downloads/Tesla/pics/Hacked.png" // Replace with the path to your image
-       // }
-   // }
-
-    // Add a Timer to control the pop-up behavior
     Timer {
         interval: 1000 // 1 second
         repeat: true
