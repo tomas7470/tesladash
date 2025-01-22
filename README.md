@@ -1,4 +1,8 @@
-# Tesla Model Y and Model 3 Dashboard (work in progress)
+# Tesla Model Y and Model 3 Dashboard (now it's almost fully ready)
+
+## TODO:
+- Redesign the 3D model to improve its fit on the Tesla dashboard by moving the Raspberry Pi's weight to the back, enhancing its grip and stability on the dash.
+- Fix a start on boot service or smth similar.
 
 ## Overview
 
