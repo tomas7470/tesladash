@@ -49,10 +49,14 @@ This project is a DIY dashboard solution for Tesla Model Y and Model 3 owners. I
     ```bash
     python main.py
     ```
+    or use the bash script as a service:
+   ```bash
+    ./setup_can0.sh
+    ```
 
-5. **Configuration**: Configure your OBDLink MX+ adapter and ensure the Model 3 DBC file is correctly set up for accurate data interpretation.
+6. **Configuration**: Configure your OBDLink MX+ adapter and ensure the Model 3 DBC file is correctly set up for accurate data interpretation.
 
-6. **Mounting**: Use the provided mount/holder design (STEP or STL format) to securely attach the Raspberry Pi and screen to your vehicle.
+7. **Mounting**: Use the provided mount/holder design (STEP or STL format) to securely attach the Raspberry Pi and screen to your vehicle.
 
 ## Usage
 
@@ -76,6 +80,8 @@ This project is licensed under the [MIT License](LICENSE.md).
 
 - Special thanks to the Tesla community for their support and contributions.
 - Credit to the creators of PyQt, SocketCAN, and the Model 3 DBC file for enabling this project.
+- Credit to @alex-adam for giving me the base for the Qt GUI base. (https://github.com/alex-adam/Tesla)
+- Credit to @norly for enabling providing the Linux SocketCAN kernel driver for the ELM327 (https://github.com/norly/elmcan)
 
 ## Contact
 
