@@ -14,7 +14,7 @@ RIGHTSIG_CAN_ID = 0x3E3
 SPPEDLIMIT_CAN_ID = 0x238
 BATTERY_CAN_ID = 0x33A
 
-can_db = cantools.database.load_file("/home/tomas7470/Downloads/Model3CAN.dbc")
+can_db = cantools.database.load_file("../Model3CAN.dbc")
 
 class Speed(QObject):
     def __init__(self):
